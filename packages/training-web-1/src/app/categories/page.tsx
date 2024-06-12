@@ -3,16 +3,16 @@ import Link from 'next/link'
 export default function Page() {
   return (
     <div>
-      <h1>トップ画面</h1>
+      <h1>カテゴリー一覧</h1>
       <ul>
         <li>
-          <Link href={`/photos/1`}>写真1</Link>
+          <Link href="/categories/flower">花</Link>
         </li>
         <li>
-          <Link href={`/photos/2`}>写真2</Link>
+          <Link href="/categories/animal">動物</Link>
         </li>
         <li>
-          <Link href={`/photos/3`}>写真3</Link>
+          <Link href="/categories/landscape">風景</Link>
         </li>
       </ul>
     </div>
